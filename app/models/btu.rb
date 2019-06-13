@@ -1,0 +1,2 @@
+class Btu < ApplicationRecord
+end

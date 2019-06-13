@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  kind: one
+  manufacturer: one
+  btu: one
+  tag: MyString
+  room: one
+  district: one
+  owner: one
+  description: MyText
+
+two:
+  kind: two
+  manufacturer: two
+  btu: two
+  tag: MyString
+  room: two
+  district: two
+  owner: two
+  description: MyText

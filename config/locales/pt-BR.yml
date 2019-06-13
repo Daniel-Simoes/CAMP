@@ -1,0 +1,60 @@
+pt-BR:
+  routes:
+    admin: admin
+    admin_users: usuarios
+    air_conditioners: ar_condicionados
+    btus: btus
+    comments: comentarios
+    districts: comarcas
+    kinds: tipos
+    manufacturers: fabricantes
+    owners: responsaveis
+    rooms: locais
+    new: novo
+    edit: editar
+  activerecord:
+    models:
+      admin_user:
+        one: Usuário
+        other: Usuários
+      air_conditioner:
+        one: Ar-Condicionado
+        other: Ar-Condicionados
+      btus:
+        one: BTU
+        other: BTUs
+      comment:
+        one: Comentário
+        other: Comentários
+      district:
+        one: Comarca
+        other: Comarcas
+      kind:
+        one: Tipo
+        other: Tipos
+      manufacturer:
+        one: Fabricante
+        other: Fabricantes
+      owner:
+        one: Responsável
+        other: Responsáveis
+      room:
+        one: Local
+        other: Locais
+    attributes:
+      admin_user:
+        email: E-mail
+        current_sign_in_at: Último login
+        sign_in_count: Quantidade de logins
+        created_at: Criado em
+      air_conditioner:
+        kind: Tipo
+        manufacturer: Fabricante
+        btu: BTUs
+        tag: Tombo
+        room: Local
+        district: Comarca
+        owner: Responsável
+        description: Descrição
+        created_at: Criado em
+        updated_at: Última atualização
